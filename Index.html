@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //task1
+        let number = [ 4, 5, 6, 3, 2, 5, 7, 2, 1, 6, 0,-1,-5,-7 ];
+            let start = number[0];
+            for (let i = 0; i < number.length; i++)
+            {
+                if (start > number[i])
+                {
+                    start=number[i];
+                }
+            }
+            console.log(start);
+            
+
+
+
+            //task2
+            let numbers = [ 3, 5, 6, 2, 1, 55, 66, 22, 11, 7777, 0 ];
+            let start_point = 0;
+            let caunt = 0;
+            for (let i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] > start) start = numbers[i];
+                
+            }
+            while (start > 1)
+            {
+                start /= 10;
+                caunt++;
+
+            }
+            console.log(caunt)
+    </script>
+</body>
+</html>
