@@ -5,8 +5,9 @@
         static void Main(string[] args)
         {
             
-            FindSmallerNumber();
-            FindBiggerNumber();
+            //FindSmallerNumber();
+            //FindBiggerNumber();
+            FIndWithBubbleShort();
             
         }
 
@@ -54,22 +55,25 @@
             int start = 0;
             int end = 0;
             int caunt = 0;
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 1; i < numbers.Length; i++)
             {
-                for (int j = 1; j < numbers.Length; j++)
-                {
-                    if (numbers[j] < numbers[j-1])
+                
+                
+                    if (numbers[i] < numbers[i-1])
                     {
-                        start = numbers[j];
-                        end = numbers[j-1];
-                        numbers[j - 1] = start;
-                        numbers[j] = end;
+                        start = numbers[i];
+                        end = numbers[i -1];
+                        numbers[i - 1] = start;
+                        numbers[i] = end;
                         
                     }
-                }
+                
             }
-            
-            Console.WriteLine(caunt);
+
+            foreach (var item in numbers)
+            {
+                Console.WriteLine(item);
+            }
 
         }
 

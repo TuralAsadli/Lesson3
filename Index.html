@@ -29,15 +29,13 @@
             let caunt = 0;
             for (let i = 0; i < numbers.Length; i++)
             {
-                if (numbers[i] > start) start = numbers[i];
+                if (numbers[i] < 10 && numbers[I] >= 0 ){
+                    caunt++;
+                }
+                 
                 
             }
-            while (start > 1)
-            {
-                start /= 10;
-                caunt++;
-
-            }
+            
             console.log(caunt)
     </script>
 </body>
