@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
             FindSmallerNumber();
             FindBiggerNumber();
-            FIndWithBubbleShort();
+            
         }
 
         //O(n)
@@ -33,25 +33,20 @@
         public static void FindBiggerNumber()
         {
             int[] numbers = { 3, 5, 6, 2, 1, 55, 66, 22, 11, 7777, 0 };
-            int start = 0;
+            
             int caunt = 0;
             for (int i = 0; i < numbers.Length; i++)
             {
-                if (numbers[i] > start) start = numbers[i];
+                if (numbers[i] < 10 && numbers[i] >= 0) caunt++;
                 
             }
-            while (start > 1)
-            {
-                start /= 10;
-                caunt++;
-
-            }
+            
             Console.WriteLine(caunt);
             
             
         }
 
-        //Task2 Second solutions
+        
         //(Algorithm : Bubble sort) O(n**2)
         public static void FIndWithBubbleShort()
         {
@@ -73,13 +68,7 @@
                     }
                 }
             }
-            int biggerNumber = numbers[numbers.Length - 1];
-            while (biggerNumber > 1)
-            {
-                biggerNumber /= 10;
-                caunt++;
-
-            }
+            
             Console.WriteLine(caunt);
 
         }

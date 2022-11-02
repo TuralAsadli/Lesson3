@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tural\\source\\repos\\Lesson3\\Lesson3\\Lesson3.csproj",
+      "projectUniqueName": "C:\\Users\\Tural\\Desktop\\lesson3\\Lesson3\\Lesson3\\Lesson3\\Lesson3.csproj",
       "projectName": "Lesson3",
-      "projectPath": "C:\\Users\\Tural\\source\\repos\\Lesson3\\Lesson3\\Lesson3.csproj",
+      "projectPath": "C:\\Users\\Tural\\Desktop\\lesson3\\Lesson3\\Lesson3\\Lesson3\\Lesson3.csproj",
       "packagesPath": "C:\\Users\\Tural\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tural\\source\\repos\\Lesson3\\Lesson3\\obj\\",
+      "outputPath": "C:\\Users\\Tural\\Desktop\\lesson3\\Lesson3\\Lesson3\\Lesson3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tural\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
